@@ -1,0 +1,137 @@
+body {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    font-family: "Roboto";
+    margin: 0;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    align-items: center;
+    height: 70px;
+}
+
+.left {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.right {
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    list-style-type: none;
+    gap: 50px;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}   
+
+.heroLeft {
+    width: 400px;
+    margin: 50px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 15px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 15px;
+}
+
+button {
+    background-color: #3892f6;
+    border-radius: 8px;
+    width: 110px;
+    height: 35px;
+    color: white;
+    margin: 15px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quoteLeft {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    width: 800px;
+    text-align: left;
+}
+
+.quoteRight {
+    align-self: flex-end;
+    padding-right: 300px;
+    font-weight: 900;
+}
+
+.signUp {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.coloring {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 130px;
+    border-radius: 8px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 70px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
